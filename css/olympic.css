@@ -1,0 +1,48 @@
+.father {
+    background-color: darkgray;
+    position: relative;
+}
+
+.son {
+    position: absolute;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 13px solid;
+    height: 200px;
+    width: 200px;
+}
+
+#r1 {
+    border-color: #0085c7;
+    left: 0;
+    top: 0;
+    z-index: 3;
+}
+
+#r2 {
+    border-color: #f4c300;
+    left: 85px;
+    top: 80px;
+    z-index: 0;
+}
+
+#r3 {
+    border-color: #000;
+    left: 170px;
+    top: 0;
+    z-index: 2;
+}
+
+#r4 {
+    border-color: #009f3d;
+    left: 255px;
+    top: 80px;
+    z-index: 1;
+}
+
+#r5 {
+    border-color: #df0024;
+    left: 340px;
+    top: 0;
+    z-index: 4;
+}
